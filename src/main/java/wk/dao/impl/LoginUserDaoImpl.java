@@ -14,13 +14,14 @@ import wk.dao.LoginUserDao;
 import wk.model.LoginUser;
 /**
  * 登陆用户信息操作数据库
- * @author WangKun
+ * @author Zhang JunMin
  *
  */
 @Repository
 public class LoginUserDaoImpl implements LoginUserDao {
 
 	@Autowired
+	//会去找JdbcTemplate的实现类，这里只有一个JdbcTemplate实现类就是JdbcTemplateImpl.java
 	private JdbcTemplate jdbcTemplate;
 
 	@Override

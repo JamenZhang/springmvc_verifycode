@@ -14,11 +14,12 @@ import wk.service.LoginUserService;
 /**
  * 登陆controller
  * @author WangKun
- *
+ * 
  */
 @Controller
 public class LoginUserController {
-	 @Autowired
+	@Autowired
+	//会去找LoginUserService的实现类，这里只有一个LoginUserService实现类就是LoginUserServiceImpl.java
 	private LoginUserService loginUserservice;
 	
 	  /**

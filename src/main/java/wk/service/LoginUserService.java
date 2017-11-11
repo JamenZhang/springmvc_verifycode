@@ -3,7 +3,7 @@ package wk.service;
 import wk.model.LoginUser;
 /**
  * 用户登陆service
- * @author WangKun
+ * @author Zhang JunMin
  *
  */
 public interface LoginUserService {

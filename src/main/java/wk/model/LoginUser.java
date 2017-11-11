@@ -23,7 +23,8 @@ public class LoginUser implements Serializable{
 	private String password;  
 	
 	public LoginUser() {
-		// TODO Auto-generated constructor stub
+		
+		
 	}
 	
 	public LoginUser(String username,String password){
